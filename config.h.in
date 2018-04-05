@@ -1,0 +1,42 @@
+#ifndef __CONFIG_H
+#define __CONFIG_H
+
+#define FREERDP_VERSION_FULL "${FREERDP_VERSION_FULL}"
+
+/* Include files */
+#cmakedefine HAVE_SYS_PARAM_H
+#cmakedefine HAVE_SYS_SOCKET_H
+#cmakedefine HAVE_NETDB_H
+#cmakedefine HAVE_FCNTL_H
+#cmakedefine HAVE_UNISTD_H
+
+/* Found packages */
+#cmakedefine CUPS_FOUND
+
+/* Endian */
+#cmakedefine BIG_ENDIAN
+
+/* Options */
+#cmakedefine WITH_DEBUG_TRANSPORT
+#cmakedefine WITH_DEBUG_CHANMAN
+#cmakedefine WITH_DEBUG_SVC
+#cmakedefine WITH_DEBUG_DVC
+#cmakedefine WITH_DEBUG_KBD
+#cmakedefine WITH_DEBUG_NLA
+#cmakedefine WITH_DEBUG_NEGO
+#cmakedefine WITH_DEBUG_CERTIFICATE
+#cmakedefine WITH_DEBUG_LICENSE
+#cmakedefine WITH_DEBUG_GDI
+#cmakedefine WITH_DEBUG_ASSERT
+#cmakedefine WITH_DEBUG_RFX
+#cmakedefine WITH_PROFILER
+#cmakedefine WITH_SSE2
+#cmakedefine WITH_SSE2_TARGET
+#cmakedefine WITH_DEBUG_X11
+#cmakedefine WITH_DEBUG_RAIL
+#cmakedefine WITH_DEBUG_XV
+#cmakedefine WITH_DEBUG_SCARD
+#cmakedefine WITH_DEBUG_ORDERS
+#cmakedefine WITH_DEBUG_REDIR
+
+#endif
